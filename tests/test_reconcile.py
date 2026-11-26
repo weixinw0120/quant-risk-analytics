@@ -1,6 +1,7 @@
-from qra.reconcile  import reconcile_counts
-
 import pandas as pd
+
+from qra.reconcile import reconcile_counts
+
 
 def test_finding_missing_duplicates():
     source  = pd.DataFrame(
